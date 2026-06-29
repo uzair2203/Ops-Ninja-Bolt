@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Shield, Lock, Smartphone, Key, Eye, EyeOff, CheckCircle2, AlertTriangle } from 'lucide-react';
+import { Badge } from '@/components/ui/Badge';
 import { FadeIn } from '@/components/animations/FadeIn';
 import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';

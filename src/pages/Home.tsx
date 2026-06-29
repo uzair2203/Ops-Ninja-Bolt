@@ -1,13 +1,13 @@
-import { useState, useEffect, useRef, useCallback } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { motion, useScroll, useTransform, useSpring, useMotionValue, useMotionTemplate } from 'framer-motion';
+import { motion, useScroll, useTransform } from 'framer-motion';
 import {
   Search, ArrowRight, Zap, Star, ChevronRight, MapPin, DollarSign, Clock,
   Building2, Briefcase, Users, TrendingUp, Shield, Globe, Cpu, Server,
   Cloud, Container, Lock, Brain, Check, Play, Pause, Sparkles,
-  ChevronDown, X, ExternalLink, Heart, MessageSquare, Award,
-  BarChart3, Layers, GitBranch, Monitor, Database, HardDrive,
-  Wifi, Fingerprint, Rocket, Target, Compass, Gem, Crown
+  ChevronDown, Heart, Layers, GitBranch, Monitor, Database, HardDrive,
+  Wifi, Rocket, Target, Compass, Gem, Crown,
+  User
 } from 'lucide-react';
 import { FadeIn } from '@/components/animations/FadeIn';
 import { StaggerContainer, StaggerItem } from '@/components/animations/StaggerContainer';
@@ -347,13 +347,13 @@ function CloudNetworkIllustration() {
 
       {/* Animated data packets */}
       <motion.circle r="3" fill="#00D4FF" filter="url(#glow)">
-        <motion.animateMotion dur="3s" repeatCount="indefinite" path="M200,80 L100,150" />
+        <animateMotion dur="3s" repeatCount="indefinite" path="M200,80 L100,150" />
       </motion.circle>
       <motion.circle r="3" fill="#8B5CF6" filter="url(#glow)">
-        <motion.animateMotion dur="2.5s" repeatCount="indefinite" path="M200,80 L300,150" />
+        <animateMotion dur="2.5s" repeatCount="indefinite" path="M200,80 L300,150" />
       </motion.circle>
       <motion.circle r="3" fill="#10B981" filter="url(#glow)">
-        <motion.animateMotion dur="3.5s" repeatCount="indefinite" path="M100,150 L200,220" />
+        <animateMotion dur="3.5s" repeatCount="indefinite" path="M100,150 L200,220" />
       </motion.circle>
     </motion.svg>
   );

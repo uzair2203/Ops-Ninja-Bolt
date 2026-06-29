@@ -10,6 +10,7 @@ interface EmptyStateProps {
     onClick: () => void;
     icon?: ReactNode;
   };
+  className?: string;
 }
 
 export function EmptyState({ icon, title, description, action }: EmptyStateProps) {

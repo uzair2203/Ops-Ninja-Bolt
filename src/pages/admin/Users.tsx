@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import {
-  Users, Search, Shield, CheckCircle2, XCircle, Clock,
+  Users as UsersIcon, Search, Shield, CheckCircle2, XCircle, Clock,
   Mail, Calendar, MoreHorizontal, Ban, UserCheck
 } from 'lucide-react';
 import { FadeIn } from '@/components/animations/FadeIn';
@@ -102,7 +102,7 @@ export function Users() {
 
       {filtered.length === 0 ? (
         <EmptyState
-          icon={<Users className="w-8 h-8" />}
+          icon={<UsersIcon className="w-8 h-8" />}
           title="No users found"
           description="Try adjusting your search or filters."
         />

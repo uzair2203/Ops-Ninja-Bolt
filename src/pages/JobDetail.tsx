@@ -108,7 +108,7 @@ export function JobDetail() {
                 <div className="flex gap-3">
                   <Button className="flex-1" icon={<Send className="w-4 h-4" />}>Apply Now</Button>
                   <Button variant="secondary" icon={<Bookmark className="w-4 h-4" />}>Save</Button>
-                  <Button variant="secondary" icon={<Share2 className="w-4 h-4" />} />
+                  <Button variant="secondary" icon={<Share2 className="w-4 h-4" />}>Share</Button>
                 </div>
               </Card>
             </FadeIn>
